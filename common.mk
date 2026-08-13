@@ -490,3 +490,7 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/sm8850-common/sm8850-common-vendor.mk)
+
+# Touchscreen keylayout for HBP DT2W wake event
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/touch/keylayout/touchpanel.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/touchpanel.kl
