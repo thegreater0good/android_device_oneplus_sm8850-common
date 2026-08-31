@@ -64,7 +64,6 @@ blob_fixups: blob_fixups_user_type = {
         'odm/lib64/libdisplayfossfeature_nature.so',
         'odm/lib64/libstc_color_feature.so',
         'vendor/bin/hw/audiohalservice.qti',
-        'vendor/bin/hw/vendor.qti.hardware.display.composer-service',
         'vendor/bin/poweropt-service',
         'vendor/bin/qsap_mpamsvc',
         'vendor/bin/qvrdatauploader',
