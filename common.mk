@@ -1,3 +1,7 @@
+# Graphics
+PRODUCT_VENDOR_PROPERTIES += \
+    vendor.gralloc.enable_snapalloc=1
+
 #
 # Copyright (C) 2021-2026 The LineageOS Project
 #
