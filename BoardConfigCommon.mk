@@ -160,6 +160,11 @@ TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := canoe
 
+# Prefer stock display services, metadata, and boot script.
+SOONG_CONFIG_qtidisplay_use_prebuilt_display_metadata := true
+SOONG_CONFIG_qtidisplay_use_prebuilt_composer := true
+SOONG_CONFIG_qtidisplay_use_prebuilt_display_boot := true
+
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
