@@ -305,3 +305,6 @@ wifi.aware.interface=wifi-aware0
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Use measured DDIC refresh rate for Developer Options overlay
+ro.surface_flinger.panel_refresh_rate_node=/sys/kernel/oplus_display/test_te
